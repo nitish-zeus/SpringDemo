@@ -1,8 +1,8 @@
-name:first workflow
-on:workflow_dispatch
+name: first workflow
+on: workflow_dispatch
 jobs:
- first_job:
-   runs-on:ubuntu-latest
+ first-job:
+   runs-on: ubuntu-latest
    steps:
-     name:Print greeting
-     run:echo "hello world"
+     - name: Print greeting
+       run: echo "hello world"
